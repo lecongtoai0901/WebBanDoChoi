@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|c:\\windowweb\\doan_webbandochoi\\doan_webbandochoi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|solutionrelative:doan_webbandochoi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|c:\\windowweb\\doan_webbandochoi\\doan_webbandochoi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|solutionrelative:doan_webbandochoi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|c:\\windowweb\\doan_webbandochoi\\doan_webbandochoi\\doan_webbandochoi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|solutionrelative:doan_webbandochoi\\doan_webbandochoi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 259,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260405060615_PostpreSQL.cs",
+              "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs",
+              "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs",
+              "ToolTip": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs",
+              "RelativeToolTip": "DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:06:16.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebBanDoChoiContext.cs",
+              "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs",
+              "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs",
+              "ToolTip": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs",
+              "RelativeToolTip": "DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:05:49.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\appsettings.json",
+              "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\appsettings.json",
+              "ToolTip": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\appsettings.json",
+              "RelativeToolTip": "DoAn_WebBanDoChoi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-05T06:02:51.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Program.cs",
+              "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\Program.cs",
+              "ToolTip": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Program.cs",
+              "RelativeToolTip": "DoAn_WebBanDoChoi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:02:02.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoAn_WebBanDoChoi",
+              "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj",
+              "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj",
+              "ToolTip": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj",
+              "RelativeToolTip": "DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-05T05:38:58.422Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
