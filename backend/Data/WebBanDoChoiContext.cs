@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using DoAn_WebBanDoChoi.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace DoAn_WebBanDoChoi.Models
+namespace DoAn_WebBanDoChoi.Data
 {
     public partial class WebBanDoChoiContext : DbContext
     {

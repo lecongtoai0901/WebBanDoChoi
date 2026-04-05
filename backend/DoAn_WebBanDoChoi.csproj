@@ -24,12 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Migrations\" />
     <Folder Include="Models\" />
-    <Folder Include="DTOs\" />
-    <Folder Include="Data\" />
     <Folder Include="Configuration\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

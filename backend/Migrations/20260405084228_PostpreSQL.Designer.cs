@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DoAn_WebBanDoChoi.Migrations
 {
     [DbContext(typeof(WebBanDoChoiContext))]
-    [Migration("20260405060615_PostpreSQL")]
+    [Migration("20260405084228_PostpreSQL")]
     partial class PostpreSQL
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

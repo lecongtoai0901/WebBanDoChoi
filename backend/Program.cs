@@ -1,5 +1,5 @@
 
-using DoAn_WebBanDoChoi.Models;
+using DoAn_WebBanDoChoi.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 

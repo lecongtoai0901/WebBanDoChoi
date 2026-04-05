@@ -1,6 +1,6 @@
 ﻿namespace DoAn_WebBanDoChoi.Services.Interfaces
 {
-    public class IAccountService
+    public interface IAccountService
     {
     }
 }
