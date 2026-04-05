@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|c:\\windowweb\\doan_webbandochoi\\doan_webbandochoi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|solutionrelative:doan_webbandochoi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|c:\\windowweb\\doan_webbandochoi\\doan_webbandochoi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|solutionrelative:doan_webbandochoi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -11,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|solutionrelative:doan_webbandochoi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|c:\\windowweb\\doan_webbandochoi\\doan_webbandochoi\\doan_webbandochoi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|solutionrelative:doan_webbandochoi\\doan_webbandochoi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|c:\\windowweb\\doan_webbandochoi\\doan_webbandochoi\\migrations\\20260405060615_postpresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|solutionrelative:doan_webbandochoi\\migrations\\20260405060615_postpresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|c:\\windowweb\\doan_webbandochoi\\doan_webbandochoi\\models\\webbandochoicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB21516-3056-43AB-920F-F8B84B00FF0C}|DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj|solutionrelative:doan_webbandochoi\\models\\webbandochoicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 259,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\.gitignore",
+              "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\.gitignore",
+              "ToolTip": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\.gitignore",
+              "RelativeToolTip": "DoAn_WebBanDoChoi\\.gitignore",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwCAAAAAJAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-04-05T06:29:16.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20260405060615_PostpreSQL.cs",
               "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs",
               "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "DoAn_WebBanDoChoi\\Migrations\\20260405060615_PostpreSQL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T06:06:16.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T06:06:16.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "WebBanDoChoiContext.cs",
               "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs",
               "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs",
@@ -55,12 +71,11 @@
               "RelativeToolTip": "DoAn_WebBanDoChoi\\Models\\WebBanDoChoiContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T06:05:49.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T06:05:49.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\appsettings.json",
               "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\appsettings.json",
@@ -73,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\Program.cs",
               "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\Program.cs",
@@ -81,21 +96,19 @@
               "RelativeToolTip": "DoAn_WebBanDoChoi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T06:02:02.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T06:02:02.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DoAn_WebBanDoChoi",
+              "DocumentIndex": 3,
+              "Title": "DoAn_WebBanDoChoi.csproj",
               "DocumentMoniker": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj",
               "RelativeDocumentMoniker": "DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj",
               "ToolTip": "C:\\WindowWeb\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj",
               "RelativeToolTip": "DoAn_WebBanDoChoi\\DoAn_WebBanDoChoi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-05T05:38:58.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T05:38:58.422Z"
             }
           ]
         }
