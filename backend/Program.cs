@@ -27,7 +27,7 @@ builder.Services.AddCors(options =>
             "http://localhost:5173", 
             "http://localhost:3000",
             "https://webbandochoi.onrender.com",
-            "https://*.onrender.com"
+            "https://webbandochoi.netlify.app"
         )
               .AllowAnyMethod()
               .AllowAnyHeader()
