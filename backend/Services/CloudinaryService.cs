@@ -9,9 +9,12 @@ namespace DoAn_WebBanDoChoi.Services
 
         public CloudinaryService(IConfiguration configuration)
         {
-            var cloudName = configuration["Cloudinary:CloudName"];
-            var apiKey = configuration["Cloudinary:ApiKey"];
-            var apiSecret = configuration["Cloudinary:ApiSecret"];
+            var cloudName = configuration["Cloudinary:CloudName"] 
+                ?? Environment.GetEnvironmentVariable("CLOUDINARY_CLOUDNAME");
+            var apiKey = configuration["Cloudinary:ApiKey"] 
+                ?? Environment.GetEnvironmentVariable("CLOUDINARY_APIKEY");
+            var apiSecret = configuration["Cloudinary:ApiSecret"] 
+                ?? Environment.GetEnvironmentVariable("CLOUDINARY_APISECRET");
 
             if (string.IsNullOrEmpty(cloudName) || string.IsNullOrEmpty(apiKey) || string.IsNullOrEmpty(apiSecret))
             {

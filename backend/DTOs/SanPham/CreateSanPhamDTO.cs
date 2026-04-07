@@ -2,7 +2,7 @@
 {
     public class CreateSanPhamDTO
     {
-        public string Tensp { get; set; }
+        public string? Tensp { get; set; }
         public double Gia { get; set; }
         public string? MoTa { get; set; }
         public string? HinhAnh { get; set; }
