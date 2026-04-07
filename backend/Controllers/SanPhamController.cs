@@ -32,7 +32,10 @@ namespace DoAn_WebBanDoChoi.Controllers
             {
                 Console.WriteLine($"[Upload] Uploading file: {file.FileName}, Size: {file.Length} bytes");
                 
-                var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploads");
+                // Fix: Use ContentRootPath as fallback if WebRootPath is null
+                var webRootPath = _webHostEnvironment.WebRootPath ?? Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot");
+                var uploadsFolder = Path.Combine(webRootPath, "uploads");
+                
                 if (!Directory.Exists(uploadsFolder))
                     Directory.CreateDirectory(uploadsFolder);
 
