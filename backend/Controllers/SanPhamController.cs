@@ -9,12 +9,12 @@ namespace DoAn_WebBanDoChoi.Controllers
     public class SanPhamController : ControllerBase
     {
         private readonly ISanPhamService _service;
-        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly CloudinaryService _cloudinaryService;
 
-        public SanPhamController(ISanPhamService service, IWebHostEnvironment webHostEnvironment)
+        public SanPhamController(ISanPhamService service, CloudinaryService cloudinaryService)
         {
             _service = service;
-            _webHostEnvironment = webHostEnvironment;
+            _cloudinaryService = cloudinaryService;
         }
 
         [HttpPost("upload")]
@@ -30,25 +30,11 @@ namespace DoAn_WebBanDoChoi.Controllers
 
             try
             {
-                Console.WriteLine($"[Upload] Uploading file: {file.FileName}, Size: {file.Length} bytes");
+                Console.WriteLine($"[Upload] Uploading file to Cloudinary: {file.FileName}, Size: {file.Length} bytes");
                 
-                // Fix: Use ContentRootPath as fallback if WebRootPath is null
-                var webRootPath = _webHostEnvironment.WebRootPath ?? Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot");
-                var uploadsFolder = Path.Combine(webRootPath, "uploads");
+                var imageUrl = await _cloudinaryService.UploadImageAsync(file);
                 
-                if (!Directory.Exists(uploadsFolder))
-                    Directory.CreateDirectory(uploadsFolder);
-
-                var fileName = $"{Guid.NewGuid()}_{file.FileName}";
-                var filePath = Path.Combine(uploadsFolder, fileName);
-
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
-                {
-                    await file.CopyToAsync(fileStream);
-                }
-
-                var imageUrl = $"/uploads/{fileName}";
-                Console.WriteLine($"[Upload] File saved successfully: {imageUrl}");
+                Console.WriteLine($"[Upload] File uploaded successfully: {imageUrl}");
                 return Ok(new { imageUrl, message = "Upload thành công" });
             }
             catch (Exception ex)

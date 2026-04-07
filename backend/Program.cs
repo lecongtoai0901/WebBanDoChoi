@@ -17,6 +17,7 @@ builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<ISanPhamRepository, SanPhamRepository>();
 builder.Services.AddScoped<ISanPhamService, SanPhamService>();
 builder.Services.AddScoped<JwtService>();
+builder.Services.AddScoped<CloudinaryService>();
 
 // Thêm CORS
 builder.Services.AddCors(options =>
