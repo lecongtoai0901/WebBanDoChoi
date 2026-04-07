@@ -1,6 +1,6 @@
-﻿namespace DoAn_WebBanDoChoi.DTOs.SanPham
+namespace DoAn_WebBanDoChoi.DTOs.SanPham
 {
-    public class SanPhamDTO
+    public class UpdateSanPhamDTO
     {
         public int Masp { get; set; }
         public string Tensp { get; set; }
@@ -11,7 +11,5 @@
         public bool? TrangThai { get; set; }
         public int? MaLoai { get; set; }
         public int? Math { get; set; }
-        public DateTime? NgayTao { get; set; }
-        public DateTime? NgayCapNhat { get; set; }
     }
 }
