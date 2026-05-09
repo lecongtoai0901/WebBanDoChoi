@@ -10,6 +10,18 @@ using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Load environment variables
+var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL") 
+    ?? builder.Configuration.GetConnectionString("DefaultConnection");
+var jwtKey = Environment.GetEnvironmentVariable("JWT_KEY") 
+    ?? builder.Configuration["Jwt:Key"];
+var cloudinaryCloudName = Environment.GetEnvironmentVariable("CLOUDINARY_CLOUD_NAME") 
+    ?? builder.Configuration["Cloudinary:CloudName"];
+var cloudinaryApiKey = Environment.GetEnvironmentVariable("CLOUDINARY_API_KEY") 
+    ?? builder.Configuration["Cloudinary:ApiKey"];
+var cloudinaryApiSecret = Environment.GetEnvironmentVariable("CLOUDINARY_API_SECRET") 
+    ?? builder.Configuration["Cloudinary:ApiSecret"];
+
 // Add services to the container.
 
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
@@ -45,7 +57,7 @@ builder.Services.AddControllers()
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<WebBanDoChoiContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("DefaultConnection not configured")));
+    options.UseNpgsql(connectionString ?? throw new InvalidOperationException("Connection string not configured")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

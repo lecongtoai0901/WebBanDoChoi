@@ -1,0 +1,12 @@
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/bin
+**/obj
+**/node_modules
+**/.env
+**/.env.local
+frontend/node_modules
+.git
+.gitignore
