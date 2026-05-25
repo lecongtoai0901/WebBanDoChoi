@@ -265,7 +265,12 @@ export default function ManageProduct() {
                   <td>{p.soLuongTon}</td>
                   <td>
                     <button className="btn btn-sm btn-outline" onClick={() => handleEdit(p)}>Sửa</button>
-                    <button className="btn btn-sm btn-danger" onClick={() => handleDelete(p.masp)}>Xóa</button>
+                    <button className="btn btn-sm btn-danger" onClick={() => {
+                      console.log('Delete product:', p);
+                      const id = p.makh || p.masp || p.id;
+                      console.log('Product ID:', id);
+                      handleDelete(id);
+                    }}>Xóa</button>
                   </td>
                 </tr>
               ))}

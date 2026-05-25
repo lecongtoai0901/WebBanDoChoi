@@ -22,10 +22,16 @@ const sanPhamApi = {
     axios.put(`${API_URL}/${id}`, data, {
       headers: { Authorization: `Bearer ${token}` },
     }),
-  delete: (id, token) =>
-    axios.delete(`${API_URL}/${id}`, {
+  delete: (id, token) => {
+    console.log('Delete API - ID:', id, 'Type:', typeof id);
+    if (!id) {
+      console.error('Delete failed: ID is undefined or null');
+      return Promise.reject(new Error('ID is required'));
+    }
+    return axios.delete(`${API_URL}/${id}`, {
       headers: { Authorization: `Bearer ${token}` },
-    }),
+    });
+  },
 };
 
 export default sanPhamApi;
