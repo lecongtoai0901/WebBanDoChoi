@@ -26,12 +26,17 @@ var cloudinaryApiSecret = Environment.GetEnvironmentVariable("CLOUDINARY_API_SEC
 // Add CORS (MUST be before AddControllers)
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", builder =>
-    {
-        builder.AllowAnyOrigin()
-               .AllowAnyMethod()
-               .AllowAnyHeader();
-    });
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy
+                .WithOrigins(
+                    "http://localhost:5173",
+                    "https://dapper-profiterole-ff1e07.netlify.app"
+                )
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
 });
 
 // Add services to the container
