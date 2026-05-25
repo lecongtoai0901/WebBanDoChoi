@@ -36,6 +36,10 @@ export default function ManageProduct() {
       if (Array.isArray(res.data)) {
         setProducts(res.data);
         console.log(`Loaded ${res.data.length} products`);
+        if (res.data.length > 0) {
+          console.log('First product structure:', res.data[0]);
+          console.log('Product keys:', Object.keys(res.data[0]));
+        }
       } else {
         console.warn('Response is not an array:', res.data);
         setProducts([]);
